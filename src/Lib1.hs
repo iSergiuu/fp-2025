@@ -1,4 +1,5 @@
 module Lib1
+<<<<<<< HEAD
   ( Path
   , Command(..)
   , examples
@@ -6,6 +7,10 @@ module Lib1
   , dumpExamples
   , showCommand
   ) where
+=======
+    ( examples, Command(..), Dumpable(..)
+    ) where
+>>>>>>> 4ba77662a15dcd0f1e0d41ace8f7f4c6d20647e6
 
 import Data.List (intercalate)
 
